@@ -76,8 +76,9 @@ with row1_2:
     st.write(
     """
     ##
-    Je tiens à remercier ma prof de maternelle Mme Klam qui tout petit m'a transmis ses trucs et astuces  pour déployer une app 
-    à l'aide de Streamlit et d'Heroku. Merci Mme Klam!
+    Examining how Uber pickups vary over time in New York City's and at its major regional airports.
+    By sliding the slider on the left you can view different slices of time and explore different transportation trends m'amènent.Amitiés à Plop.
+    
     """)
 
 # FILTERING DATA BY HOUR SELECTED
