@@ -69,15 +69,16 @@ def map(data, lat, lon, zoom):
 row1_1, row1_2 = st.beta_columns((2,3))
 
 with row1_1:
-    st.title("NYC Uber Ridesharing Data")
-    hour_selected = st.slider("Select hour of pickup", 0, 23)
+    st.title("Etude des données uber pour la ville de NYC")
+    hour_selected = st.slider("Heure de la prise en charge", 0, 23)
 
 with row1_2:
     st.write(
     """
     ##
     Examining how Uber pickups vary over time in New York City's and at its major regional airports.
-    By sliding the slider on the left you can view different slices of time and explore different transportation trends.
+    By sliding the slider on the left you can view different slices of time and explore different transportation trends m'amènent.Amitiés à Plop.
+    Salut Louis tu vas bien? Bonjour Marion et joyeux anniversaire à ton pote.
     """)
 
 # FILTERING DATA BY HOUR SELECTED
